@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import org.w3c.dom.UserDataHandler;
 public class TicTacToe {
     public static void main(String[] args){
         String[] userName = new String[1];
