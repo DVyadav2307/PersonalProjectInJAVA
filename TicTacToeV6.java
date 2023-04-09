@@ -55,7 +55,7 @@ public class TicTacToeV6 {
             userName[1] = "Computer";//next array set to computer mode
         }
         //input should be 0 or 1
-        else if (choice != 0 || choice != 1){
+        else if (choice != 0 && choice != 1){
             System.out.println("Wrong Input!, Retry.");
             playingMode(userName);
             return;
